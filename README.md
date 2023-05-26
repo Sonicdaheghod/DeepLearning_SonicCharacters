@@ -1,4 +1,4 @@
-# Machine Learning - Categorizing Characters
+# Machine Learning- Deep Learning - Categorizing Characters
 by Megan Tran
 
 ## Table of Contents
@@ -11,9 +11,9 @@ by Megan Tran
 
 I created this program to practice creating a neural network and training it with imported photos from two categories: Sonic the Hedgehog and Tails the Fox.
 
-A challenge I faced what pulling up data for the Game Number when assigning the test and the train data. The program did not register the title of the columns I typed in the terminal. To fix that, I edited the column names in the csv file itself so that the title I typed in the terminal would match the column name in the csv file and run the program. 
+A challenge I faced was that the terminal did not accept ".jfif" files. To fix this, I converted the files to ".jpeg". Another challenge I faced with my model was that it incorrectly identified three images. The original pictures were of Sonic the Hedgehog (blue character), but the model identified them as Tails the Fox (yellow character). To fix this, I would have to add more pictures of "Sonic the Hedgehog" in the training file for the model to train with to improve its accuracy in identifying pictures of Sonic the Hedgehog.
 
-In the future, I hope to incorporate more analysis techniques related to machine learning to work with data such as the data set I worked with to better analyze it. I would also use the new machine learning techniques to train the model to both interpolate and extrapolate data.
+In the future, I hope to incorporate and improve on this model and apply it to real life situations that incorporate categorizing certain variables into seperate groups for analysis. For example, I want to create a model similar to this in categorizing bioactive molecules and non-bioactive molecules for my research in Natural Products Chemistry.
 
 ## Technologies
 Languages/ Technologies used:
