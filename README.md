@@ -9,7 +9,7 @@ by Megan Tran
 
 ## Purpose of Program
 
-I created this program to practice creating a neural network and training it with imported photos from two categories: Sonic the Hedgehog and Tails the Fox.
+I created this program to practice creating a neural network and training it with imported photos from two categories: Sonic the Hedgehog and Tails the Fox. The goal of this was to create a program that can seperate the pictures into the two respective categories.
 
 A challenge I faced was that the terminal did not accept ".jfif" files. To fix this, I converted the files to ".jpeg". Another challenge I faced with my model was that it incorrectly identified three images. The original pictures were of Sonic the Hedgehog (blue character), but the model identified them as Tails the Fox (yellow character). To fix this, I would have to add more pictures of "Sonic the Hedgehog" in the training file for the model to train with to improve its accuracy in identifying pictures of Sonic the Hedgehog.
 
@@ -23,19 +23,17 @@ Languages/ Technologies used:
 
 ## Setup
 
-1. Download the csv file of your choice from this website:
+1. To run this project, install it locally using pip install:
 
-> https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html
+`pip install tensorflow`
+`pip install opencv-python`
+`pip install matplotlib`
+`pip install numpy`
 
-I downloaded snakes_count_1000.csv. for this project.
+## Using the program
 
-2. Ensure to import pandas
-` import pandas as pd `
 
-3. When opening csv file, save the file then right click on file in file explorer, click on "copy by path", and paste it into the code.
-
-`game = pd.read_csv(r"C:\Users\Megan Tran\Desktop\Megan's USB\College\Code\Python\Machine Learning\snakes_count_1000.csv")`
 
 ### Credits
-This project was inspired by Dataquest's tutorial
-> https://youtu.be/Hr06nSA-qww
+This project was inspired by When Maths Meets Coding's tutorial
+> [https://youtu.be/Hr06nSA-qww](https://youtu.be/uqomO_BZ44g)
