@@ -23,7 +23,7 @@ Languages/ Technologies used:
 
 ## Setup
 
-1. To run this project, install it locally using pip install:
+To run this project, install it locally using pip install:
 
 `pip install tensorflow`
 `pip install opencv-python`
