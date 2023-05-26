@@ -32,7 +32,9 @@ To run this project, install it locally using pip install:
 
 ## Using the program
 
+1. Create a training, test, and validation file in your directory for your model to work with.
 
+In progress
 
 ### Credits
 This project was inspired by When Maths Meets Coding's tutorial
