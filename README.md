@@ -34,6 +34,11 @@ To run this project, install it locally using pip install:
 
 1. Create a training, test, and validation file in your directory for your model to work with.
 
+* create two files for the categories you want to include for the project. Here, I made two folders called "Sonic" and "Tails"
+
+* in the test file, add pictures of your choice so the model can later organize it into the groups you want them organized into. 
+
+
 In progress
 
 ### Credits
