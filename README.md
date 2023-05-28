@@ -51,18 +51,18 @@ To run this project, install it locally using pip install:
 trainDataset = train.flow_from_directory(r"D:\Coding Python\Machine Learning\Deep Learn\train_data",
                                         target_size = (200,200),
                                         batch_size = 2,
-                                        class_mode = "binary")
+                                        class_mode = "binary")`
 
-#since I don't have that many pictures in the training file, the batch size for the machine to train with must be small
-#class_mode here is binary because the only categories is either Sonic or Tails
-
-#for validation dataset
-validationDataset = train.flow_from_directory(r"D:\Coding Python\Machine Learning\Deep Learn\validation",
+`validationDataset = train.flow_from_directory(r"D:\Coding Python\Machine Learning\Deep Learn\validation",
                                         target_size = (200,200),
                                         batch_size = 2,
                                         class_mode = "binary")`
                                         
 `dir_path = r"D:\Coding Python\Machine Learning\Deep Learn\test_data"`
+
+3. Result should then output the model's loss/ accuracy in identifying the pictures from your custom data set. At the end when determining the quality of the model's method, it should look like this-
+
+![sonicML](https://github.com/Sonicdaheghod/DeepLearning_SonicCharacters/assets/68253811/2a9d7548-65ea-4caa-8f41-1c84011416d5)
 
 
 ### Credits
