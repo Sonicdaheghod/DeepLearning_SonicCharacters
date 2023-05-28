@@ -26,8 +26,11 @@ Languages/ Technologies used:
 To run this project, install it locally using pip install:
 
 `pip install tensorflow`
+
 `pip install opencv-python`
+
 `pip install matplotlib`
+
 `pip install numpy`
 
 ## Using the program
@@ -36,10 +39,31 @@ To run this project, install it locally using pip install:
 
 * create two files for the categories you want to include for the project. Here, I made two folders called "Sonic" and "Tails"
 
-* in the test file, add pictures of your choice so the model can later organize it into the groups you want them organized into. 
+* In the test file, add pictures of your choice so the model can later organize it into the groups you want them organized into. 
 
+2. Import those files to the code using their respective directories using these lines:
 
-In progress
+`myImage = image.load_img(r"D:\Coding Python\Machine Learning\Deep Learn\train_data\Sonic\sonic_1.jpeg")`
+
+`cv2.imread(r"D:\Coding Python\Machine Learning\Deep Learn\train_data\Sonic\sonic_1.jpeg").shape`
+
+`#get dataset from our directory
+trainDataset = train.flow_from_directory(r"D:\Coding Python\Machine Learning\Deep Learn\train_data",
+                                        target_size = (200,200),
+                                        batch_size = 2,
+                                        class_mode = "binary")
+
+#since I don't have that many pictures in the training file, the batch size for the machine to train with must be small
+#class_mode here is binary because the only categories is either Sonic or Tails
+
+#for validation dataset
+validationDataset = train.flow_from_directory(r"D:\Coding Python\Machine Learning\Deep Learn\validation",
+                                        target_size = (200,200),
+                                        batch_size = 2,
+                                        class_mode = "binary")`
+                                        
+`dir_path = r"D:\Coding Python\Machine Learning\Deep Learn\test_data"`
+
 
 ### Credits
 This project was inspired by When Maths Meets Coding's tutorial
